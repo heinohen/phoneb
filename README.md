@@ -18,3 +18,5 @@
 - [x] 3.16 virheidenkäsittely middlewareen
 - [x] 3.17 numeron päivitys toimii backendissä
 - [x] 3.18 yksittäisen näyttö toimii backendissä
+- [x] 3.19 nimivalidaattori
+- [ ] 3.20 numero custom validaattori
