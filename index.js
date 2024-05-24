@@ -32,7 +32,7 @@ app.get('/info', (request,response) => {
         </div>`
     );
 });
-
+// TODO
 app.get('/api/persons/:id', (request, response) => {
     const id = Number(request.params.id);
     const person = persons.find(p => p.id === id)
@@ -44,6 +44,8 @@ app.get('/api/persons/:id', (request, response) => {
     }
 });
 
+
+// TODO
 app.delete('/api/persons/:id', (request, response) => {
     const id = Number(request.params.id);
     console.log(`Deleting person with id ${id}`)
@@ -52,6 +54,7 @@ app.delete('/api/persons/:id', (request, response) => {
     response.status(204).end()
 })
 
+// TODO
 app.post('/api/persons', (request, response) => {
     const body = request.body;
 
