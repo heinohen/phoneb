@@ -11,3 +11,10 @@
 - [x] 3.9 - backend
 - [x] 3.10 - @ render
 - [x] 3.11 full stack -- works
+- [x] 3.12
+- [x] 3.13 backend tietokantaan step1
+- [x] 3.14 backend tietokantaan step2
+- [x] 3.15 poisto tietokantaan
+- [x] 3.16 virheidenkäsittely middlewareen
+- [x] 3.17 numeron päivitys toimii backendissä
+- [x] 3.18 yksittäisen näyttö toimii backendissä
