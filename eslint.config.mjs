@@ -1,9 +1,19 @@
-import globals from "globals";
-import pluginJs from "@eslint/js";
+// .eslintrc.js
 
-
-export default [
-  {files: ["**/*.js"], languageOptions: {sourceType: "commonjs"}},
-  {languageOptions: { globals: globals.browser }},
-  pluginJs.configs.recommended,
-];
+module.exports = {
+  // ...other config
+  overrides: [
+      {
+          files: ["src/**/*"],
+          rules: {
+              semi: ["warn", "always"]
+          }
+      },
+      {
+          files:["test/**/*"],
+          rules: {
+              "no-console": "off"
+          }
+      }
+  ]
+};
